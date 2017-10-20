@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css">
+<script type='text/javascript' src='lightbox.js'></script>
+</head>
+
+<body>
+
+<div id = "topmenu">
+<ul ><li><a href = "home">LOGOUT </a></li><li><a href = "home">PROFILE</a></li><li> <a href = "home">PLAY</a></li> <li><a href = "home">HOUSES</a></li><li>
+<a href = "home">HOME</a></li>
+</ul>
+
+</div>
+<div id= "break1"><div id = "text">
+When you play <br>A Game of Thrones<br> you win or you die<br></div>
+</div>
+<div id = "first"  style="max-width:100%">
+
+
+  <img class="mySlides" src="d.jpg" style="width:80%; height:80%; align : center">
+  <img class="mySlides" src="e.jpg" style="width:80%; height:80%; align : center">
+  <img class="mySlides" src="f.jpg" style="width:80%; height:80%; align : center">
+
+
+
+</div>
+
+
+
+<div id = "break"></div>
+
+
+<div id = "second">l
+</div>
+
+<div id = "break"></div>
+
+<div id = "overlay_combat" onclick = "offa()">
+<div id = "combat_rules">ooooooooooooooooooooooooooooooooooooooooooo
+</div>
+</div>
+
+<div id = "third">
+<button class="button" onclick="onb()">Turn on overlay effect</button>
+</div>
+
+<div id = "break"></div>
+<div id = "overlay_poach" onclick = "offb()">
+<div id = "poach_rules">eeeeeeeeeeeeeeeeeeeeeeeeeeeeooo
+</div>
+</div>
+
+<div id = "fourth">
+<button class="button" onclick="onb()">Turn on overlay effect</button>
+</div>
+
+<div id = "break"></div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+</body>
+
+
+
+
+</html>
