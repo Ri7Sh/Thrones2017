@@ -1,7 +1,10 @@
+<!Doctype html>
+{% load staticfiles %}
 <html>
 <head>
-<link rel = "stylesheet" href = "style.css">
-<script type='text/javascript' src='lightbox.js'></script>
+<link rel = "stylesheet" href = "{% static "style.css" %}">
+<script type='text/javascript' src="{% static "lightbox.js" %}"
+></script>
 </head>
 
 <body>
@@ -18,9 +21,9 @@ When you play <br>A Game of Thrones<br> you win or you die<br></div>
 <div id = "first"  style="max-width:100%">
 
 
-  <img class="mySlides" src="d.jpg" style="width:80%; height:80%; align : center">
-  <img class="mySlides" src="e.jpg" style="width:80%; height:80%; align : center">
-  <img class="mySlides" src="f.jpg" style="width:80%; height:80%; align : center">
+  <img class="mySlides" src="{% static "images/d.jpg" %}" style="width:80%; height:80%; align : center">
+  <img class="mySlides" src="{% static "images/e.jpg" %}" style="width:80%; height:80%; align : center">
+  <img class="mySlides" src="{% static "images/f.jpg" %}" style="width:80%; height:80%; align : center">
 
 
 
