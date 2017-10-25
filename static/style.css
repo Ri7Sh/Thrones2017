@@ -20,8 +20,8 @@ div#text{
 }
 
 div#backHouse {
-    background-image : url('F:/event/oct/a.jpg');
-    height : 650px;
+    
+    height : 800px;
 }
 
 div#backProfile {
@@ -204,7 +204,7 @@ div#overlay_poach{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 10;
+    top: 20%;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -217,7 +217,7 @@ div#overlay_poach{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20%;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -230,7 +230,7 @@ div#overlay_poach{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20%;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -243,7 +243,7 @@ div#overlay_poach{
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 20%;
     right: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -256,24 +256,28 @@ div#stark{
     font-size:30px;
     cursor:pointer;
     width: 30%;
+    color : white;
 }
 
 div#lannister{
     font-size:30px;
     cursor:pointer;
     width: 30%;
+    color : white;
 }
 
 div#targa{
     font-size:30px;
     cursor:pointer;
     width: 30%;
+    color : white;
 }
 
 div#greyjoy{
     font-size:30px;
     cursor:pointer;
     width: 30%;
+    color : white;
 }
 
 div#history{
@@ -401,3 +405,129 @@ div#inHistory{
 }
 
 .mySlides {display:none;}
+
+
+
+
+
+
+
+div#a{
+    height:50%;
+    width:50%;
+    float:left;
+    background-image : url('F:/event/oct/fstark2.jpg');
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+div#c{
+    height:50%;
+    width:50%;
+    float:left;
+    background-image : url('F:/event/oct/flan2.png');
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+div#b{
+    height:50%;
+    width:50%;
+    float:right;
+    background-image : url('F:/event/oct/fbara2.jpg');
+      background-repeat : no-repeat;
+    background-size : cover;
+}
+div#d{
+    height:50%;
+    width:50%;
+    float:right;
+    background-image : url('F:/event/oct/ftarga2.jpg');
+      background-repeat : no-repeat;
+    background-size : cover;
+}
+
+
+
+.box {
+  background: #2db34a;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  width: 95px;
+}
+
+.box-1 {
+  transform: skewX(5deg);
+}
+
+div#cover1{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 10%;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    transition: 1.0s;
+}
+
+div#cover2{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 10%;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+div#cover3{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 10%;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+div#cover4{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 10%;
+    top: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+div#cover{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('b.jpg');
+        
+    z-index: 1;
+}
+
+div#la{
+    bottom : 0%;
+}
+div#clickout{
+    color : white;
+}
