@@ -24,4 +24,5 @@ urlpatterns = [
 	url(r'^$', views.index, name='index'),
 	url(r'^main_app/', include('main_app.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^accounts/',include('allauth.urls'))
 ]

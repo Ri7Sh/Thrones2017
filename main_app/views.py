@@ -8,3 +8,6 @@ from django.http import JsonResponse
 def index(request):
 
 	return render(request, 'main_app/home.html')
+
+def house(request):
+	return render(request, 'main_app/house2.html')
