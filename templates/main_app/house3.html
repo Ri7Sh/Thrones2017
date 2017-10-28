@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css">
+<link rel="stylesheet" href="animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type = 'text/javascript' src = 'lightbox.js'></script>
+
+</head>
+<body>
+
+<div id = "topmenu">
+<ul ><li><a href = "home">LOGOUT </a></li><li><a href = "home">PROFILE</a></li><li> <a href = "home">PLAY</a></li> <li><a href = "home">HOUSES</a></li><li>
+<a href = "home">HOME</a></li>
+</ul>
+</div>
+<div id = "cover1">
+<i class="fa fa-arrow-left" aria-hidden="true" id ="be1"></i>
+<br>
+<span id = "nam">House Stark</span><br>
+
+<div id = "playerName">LaLa  </div><div id = "poa"> Poach</div><div id = "com"> Combat </div> 
+ 
+<div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+    </div>
+
+</div><!--end of cover1-->
+
+<div id = "cover2">
+<i class="fa fa-arrow-left" aria-hidden="true" id ="be2"></i>
+<br>
+<span id = "nam">House Lannister</span><br>
+
+<div id = "playerName">LaLa  </div><div id = "poa"> Poach</div><div id = "com"> Combat </div> 
+ 
+<div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+    </div>
+
+</div><!--end of cover2-->
+
+
+<div id = "cover3">
+<i class="fa fa-arrow-left" aria-hidden="true" id ="be3"></i>
+<br>
+<span id = "nam">House Baratheon</span><br>
+
+<div id = "playerName">LaLa  </div><div id = "poa"> Poach</div><div id = "com"> Combat </div> 
+ 
+<div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+    </div>
+
+</div><!--end of cover3-->
+
+
+<div id = "cover4">
+<i class="fa fa-arrow-left" aria-hidden="true" id ="be4"></i>
+<br>
+<span id = "nam">House Targaeryon</span><br>
+
+<div id = "playerName">LaLa  </div><div id = "poa"> Poach</div><div id = "com"> Combat </div> 
+ 
+<div class="scrollbar" id="style-1">
+      <div class="force-overflow"></div>
+    </div>
+
+</div><!--end of cover4-->
+
+
+
+<div id ="la">Check out me Scores!
+<div id = "show">
+<div id = "houseText">
+<center>Houses</center><br>Inter house rivalry is at an all time high. <br>
+              Click the houses to Find out more about the members of each houses,<br> and for sending combat and poach requests.<br>
+</div><!--end of houseText-->
+<center>
+<div id = "nav1">
+<img src = "fstark2.jpg" id = "sLogo">House Stark <br>
+<div id = "pStark">100 points </div> 
+<div id = "one"><i class="fa fa-bars"></i>See List</div> 
+</div><br>
+<center><div id = "nav2" ><img src = "flan2.png" id = "lLogo">House Lannister <div id = "lStark">100 points </div> <div id = "two"><i class="fa fa-bars"></i>See List</div></div><br>
+<center><div id = "nav3" ><img src = "fbara2.jpg" id = "bLogo">House Baratheon <div id = "bStark">100 points </div> <div id = "three"><i class="fa fa-bars"></i>See List</div></div><br>
+<center><div id = "nav4" ><img src = "ftarga2.jpg" id = "bLogo">House Targa <div id = "tStark">100 points </div> <div id = "four"><i class="fa fa-bars"></i>See List</div></div><br></center>
+
+
+</div><!--end of show-->
+</div><!--end of la-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$('#one').on('click', function(){
+	$('#cover1').addClass('animated fadeInRightBig');
+	
+    $("#cover1").css("display", "block");
+	$('#cover1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		$('#cover1').removeClass('animated fadeInRightBig');
+	});
+
+});
+
+$('#two').on('click', function(){
+	$('#cover2').addClass('animated fadeInRightBig');
+	
+    $("#cover2").css("display", "block");
+	$('#cover2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		$('#cover2').removeClass('animated fadeInRightBig');
+	});
+
+});
+
+
+$('#three').on('click', function(){
+	$('#cover3').addClass('animated fadeInRightBig');
+	
+    $("#cover3").css("display", "block");
+	$('#cover3').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		$('#cover3').removeClass('animated fadeInRightBig');
+	});
+
+});
+
+
+$('#four').on('click', function(){
+	$('#cover4').addClass('animated fadeInRightBig');
+	
+    $("#cover4").css("display", "block");
+	$('#cover4').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+		$('#cover4').removeClass('animated fadeInRightBig');
+	});
+
+});
+
+$('#be1').on('click', function(){
+	
+	
+    $("#cover1").css("display", "none");
+	
+
+});
+
+$('#be2').on('click', function(){
+	
+	
+    $("#cover2").css("display", "none");
+	
+
+});
+$('#be3').on('click', function(){
+	
+	
+    $("#cover3").css("display", "none");
+	
+
+});
+$('#be4').on('click', function(){
+	
+	
+    $("#cover4").css("display", "none");
+	
+
+});
+
+
+</script>
+
+</body>
+</html>
